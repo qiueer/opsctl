@@ -9,7 +9,9 @@
 ## 使用方法
 ```
 （1）默认配置文件
-etc/opsctl.conf，如果该文件不存在，则读取/etc/opsctl.conf，或者用户通过参数-c或--conf指定。另在etc/下有名为opsctl_example.conf的示例配置文件，里面对各个参数均有说明，对于配置文件，如果不是非常清楚每个参数代表的意思，最好通过本工具进行配置，手动配置可能会引起未知的错误。
+etc/opsctl.conf，如果该文件不存在，则读取/etc/opsctl.conf，或者用户通过参数-c或--conf指定。
+另在etc/下有名为opsctl_example.conf的示例配置文件，里面对各个参数均有说明。
+对于配置文件，如果不是非常清楚每个参数代表的意思，最好通过本工具进行配置，手动配置可能会引起未知的错误。
 （2）帮助信息，python opsctl.py -h  
 Usage: opsctl.py [options]  
 
